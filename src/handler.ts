@@ -10,7 +10,7 @@ const router = Router()
 router
   .get('/ens/resolver', Resolver)
   .get('/ens/resolver/:domain/erc721', Domain2Token)
-  .get('/ens/resolver/:domain/avatar', Domain2Avatar)
+  // .get('/ens/resolver/:domain/avatar', Domain2Avatar)
   .get('/ens/resolver/:erc721/domain', Token2Domain)
   .get('*', () => new Response("Not found", { status: 404 }))
 
