@@ -43,3 +43,9 @@ The functionality of the service can be demostrated as follows:
 
 More information on how to preview and publish a worker is available at [Wrangler docs](https://developers.cloudflare.com/workers/tooling/wrangler/commands/#publish).
 
+### 🔨 Credits
+
+- [ENS Domains](https://ens.domains/)
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/) to deploy the project as a microservice.
+- [Ethers.js](https://docs.ethers.io/v5/)
+- [TheGraph](https://thegraph.com/en/)
