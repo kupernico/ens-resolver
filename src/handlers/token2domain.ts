@@ -3,10 +3,10 @@ import { ethers } from "ethers";
 import GetJSON from "../util/json-request";
 
 const Token2Domain = async request => {
-    const token = request.params.token
+    const erc721 = request.params.erc721
 
     const BigNumber = ethers.BigNumber
-    const labelHash = BigNumber.from(token).toHexString()
+    const labelHash = BigNumber.from(erc721).toHexString()
 
     const owner = await fetchENSDomain(labelHash);
 
