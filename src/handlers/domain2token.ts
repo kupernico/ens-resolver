@@ -10,7 +10,7 @@ const Domain2Token =  request => {
     const labelHash = utils.keccak256(utils.toUtf8Bytes(domain))
     const tokenId = BigNumber.from(labelHash).toString()
 
-    const body = JSON.stringify({ domain: domain, erc721: tokenId })
+    const body = JSON.stringify({ erc721: tokenId })
     const headers = { 'Content-type': 'application/json' }
     return new Response(body, { headers })
   }
