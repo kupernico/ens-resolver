@@ -1,5 +1,7 @@
 # `ENS NFT RESOLVER SERVICE`
 
+Submission for the ETHGlobal [NFT Hackathon 2022](https://nfthack.ethglobal.co/).
+
 As described in the [ENS documentation](https://docs.ens.domains/dapp-developer-guide/ens-as-nft), .eth registrations can be transferred in the same fashion as other NFTs since they implement the [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) Non-Fungible Token Standard.
 
 This project intents to simplify the resolving of:
