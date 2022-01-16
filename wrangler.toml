@@ -1,4 +1,4 @@
-name = "ens-resolver"
+name = "api"
 type = "javascript"
 zone_id = ""
 account_id = ""
