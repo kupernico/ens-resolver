@@ -32,9 +32,9 @@ The handlers have been implemented as in the [ENS documentation](https://docs.en
 
 The functionality of the service can be demostrated as follows:
 
-- https://ethglobal-nfthack.kupernico.workers.dev/ens/resolver/vitalik/erc721 - retrieves the domain label 'vitalik' as an NFT Token ID.
+- https://ethglobal-nfthack.kupernico.workers.dev/ens/resolver/kupernico/erc721 - retrieves the NFT Token ID given the domain label 'kupernico'.
 
-- https://ethglobal-nfthack.kupernico.workers.dev/ens/resolver/79233663829379634837589865448569342784712482819484549289560981379859480642508/domain - resolves the NFT Token ID to the domain label 'vitalik'
+- https://ethglobal-nfthack.kupernico.workers.dev/ens/resolver/101999766799224747095748306913918986390319067730498280272548597342427873144316/domain - resolves the NFT Token ID to the domain label 'kupernico'
 
 ### 👀 Previewing and Publishing
 
