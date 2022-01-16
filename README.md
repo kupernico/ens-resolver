@@ -8,7 +8,7 @@ This project intents to simplify the resolving of:
 - ENS domain to NFT ERC721
 - NFT ERC721 to ENS domain
 
-It is deployed as a [Cloudflare](https://cloudflare.com) worker using [Wrangler](https://github.com/cloudflare/wrangler). The documentation in this regard can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler/).
+It is deployed as a [Cloudflare Worker](https://developers.cloudflare.com/workers/) using [Wrangler](https://github.com/cloudflare/wrangler). The documentation in this regard can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler/).
 
 ## 🔋 Getting Started
 
