@@ -21,7 +21,7 @@ async function fetchENSDomain(labelHash: string): Promise<Array<string>> {
   const theGraph = "https://api.thegraph.com/subgraphs/name/ensdomains/ens";
 
   const GET_LABEL_NAME = `{
-    domains(first:1, where:{labelhash:"${labelHash}"}){
+    domains( first:1, where: { labelhash:"${labelHash}" } ){
       labelName
     }
   }`;

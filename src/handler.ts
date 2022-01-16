@@ -8,8 +8,8 @@ const router = Router()
 
 router
   .get('/ens/resolver', Resolver)
-  .get('/ens/resolver/:domain/token', Domain2Token)
-  .get('/ens/resolver/:token/domain', Token2Domain)
+  .get('/ens/resolver/:domain/erc721', Domain2Token)
+  .get('/ens/resolver/:erc721/domain', Token2Domain)
   .get('*', () => new Response("Not found", { status: 404 }))
 
 export const handleRequest = request => router.handle(request)
